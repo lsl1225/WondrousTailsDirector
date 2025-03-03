@@ -8,7 +8,6 @@ public sealed class WondrousTailsSolverPlugin : IDalamudPlugin {
     public WondrousTailsSolverPlugin(IDalamudPluginInterface pluginInterface) {
         pluginInterface.Create<Service>();
 
-        System.PerfectTails = new PerfectTails();
         System.Configuration = Service.Interface.GetPluginConfig() as Configuration ?? new Configuration();
 
         System.NativeController = new NativeController(pluginInterface);

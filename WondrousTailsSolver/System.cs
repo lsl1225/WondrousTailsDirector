@@ -9,5 +9,4 @@ public static class System {
     public static WindowManager WindowManager { get; set; }
     public static NativeController NativeController { get; set; }
     public static AddonWeeklyBingoController AddonWeeklyBingoController { get; set; }
-    public static PerfectTails PerfectTails { get; set; }
 }
