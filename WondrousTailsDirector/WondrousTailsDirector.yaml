@@ -1,0 +1,5 @@
+author: daemitus, MidoriKami, lsl1225
+name: WondrousTailsDirector
+punchline: Adds instance redirect to the Wondrous Tails display (former function in EzWondrousTails).
+description: This plugin add the capability to open the corresponding instance by clicking on duties in Wondrous Tails. (Former function in EzWondrousTails which is not currently maintenanced.)
+repo_url: https://github.com/lsl1225/WondrousTailsDirector

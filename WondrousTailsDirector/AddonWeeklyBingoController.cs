@@ -14,7 +14,7 @@ using KamiToolKit.Classes;
 using KamiToolKit.Nodes;
 using Lumina.Excel.Sheets;
 
-namespace WondrousTailsSolver;
+namespace WondrousTailsDirector;
 
 public unsafe class AddonWeeklyBingoController : IDisposable {
     private readonly IAddonEventHandle?[] eventHandles = new IAddonEventHandle?[16];

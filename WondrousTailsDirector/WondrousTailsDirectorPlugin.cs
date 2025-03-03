@@ -2,10 +2,10 @@
 using KamiLib.Window;
 using KamiToolKit;
 
-namespace WondrousTailsSolver;
+namespace WondrousTailsDirector;
 
-public sealed class WondrousTailsSolverPlugin : IDalamudPlugin {
-    public WondrousTailsSolverPlugin(IDalamudPluginInterface pluginInterface) {
+public sealed class WondrousTailsDirectorPlugin : IDalamudPlugin {
+    public WondrousTailsDirectorPlugin(IDalamudPluginInterface pluginInterface) {
         pluginInterface.Create<Service>();
 
         System.Configuration = Service.Interface.GetPluginConfig() as Configuration ?? new Configuration();

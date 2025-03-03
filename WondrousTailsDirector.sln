@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31423.177
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WondrousTailsSolver", "WondrousTailsSolver\WondrousTailsSolver.csproj", "{E4BEAAE4-8522-44B6-8754-9560475D20D3}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7EDD1F8C-4647-45DA-A5AF-DEF41D07F0E2}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
@@ -20,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KamiToolKit", "KamiToolKit\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KamiLib", "KamiLib\KamiLib.csproj", "{A37E7E5C-1BE1-4F26-8C37-7897D8E27952}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WondrousTailsDirector", "WondrousTailsDirector\WondrousTailsDirector.csproj", "{BDADAA7D-B745-53F0-0D64-1D3DE518D949}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,14 +28,6 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E4BEAAE4-8522-44B6-8754-9560475D20D3}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{E4BEAAE4-8522-44B6-8754-9560475D20D3}.Debug|Any CPU.Build.0 = Debug|x64
-		{E4BEAAE4-8522-44B6-8754-9560475D20D3}.Debug|x64.ActiveCfg = Debug|x64
-		{E4BEAAE4-8522-44B6-8754-9560475D20D3}.Debug|x64.Build.0 = Debug|x64
-		{E4BEAAE4-8522-44B6-8754-9560475D20D3}.Release|Any CPU.ActiveCfg = Release|x64
-		{E4BEAAE4-8522-44B6-8754-9560475D20D3}.Release|Any CPU.Build.0 = Release|x64
-		{E4BEAAE4-8522-44B6-8754-9560475D20D3}.Release|x64.ActiveCfg = Release|x64
-		{E4BEAAE4-8522-44B6-8754-9560475D20D3}.Release|x64.Build.0 = Release|x64
 		{588AF486-BF20-4BDD-A3FC-08F62608B89C}.Debug|Any CPU.ActiveCfg = Debug|x64
 		{588AF486-BF20-4BDD-A3FC-08F62608B89C}.Debug|Any CPU.Build.0 = Debug|x64
 		{588AF486-BF20-4BDD-A3FC-08F62608B89C}.Debug|x64.ActiveCfg = Debug|x64
@@ -52,6 +44,14 @@ Global
 		{A37E7E5C-1BE1-4F26-8C37-7897D8E27952}.Release|Any CPU.Build.0 = Debug|x64
 		{A37E7E5C-1BE1-4F26-8C37-7897D8E27952}.Release|x64.ActiveCfg = Debug|x64
 		{A37E7E5C-1BE1-4F26-8C37-7897D8E27952}.Release|x64.Build.0 = Debug|x64
+		{BDADAA7D-B745-53F0-0D64-1D3DE518D949}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{BDADAA7D-B745-53F0-0D64-1D3DE518D949}.Debug|Any CPU.Build.0 = Debug|x64
+		{BDADAA7D-B745-53F0-0D64-1D3DE518D949}.Debug|x64.ActiveCfg = Debug|x64
+		{BDADAA7D-B745-53F0-0D64-1D3DE518D949}.Debug|x64.Build.0 = Debug|x64
+		{BDADAA7D-B745-53F0-0D64-1D3DE518D949}.Release|Any CPU.ActiveCfg = Release|x64
+		{BDADAA7D-B745-53F0-0D64-1D3DE518D949}.Release|Any CPU.Build.0 = Release|x64
+		{BDADAA7D-B745-53F0-0D64-1D3DE518D949}.Release|x64.ActiveCfg = Release|x64
+		{BDADAA7D-B745-53F0-0D64-1D3DE518D949}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

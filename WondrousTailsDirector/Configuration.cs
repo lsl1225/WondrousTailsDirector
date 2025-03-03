@@ -4,7 +4,7 @@ using System.Numerics;
 using Dalamud.Configuration;
 using Dalamud.Interface;
 
-namespace WondrousTailsSolver;
+namespace WondrousTailsDirector;
 
 public class Configuration : IPluginConfiguration {
     public int Version { get; set; }

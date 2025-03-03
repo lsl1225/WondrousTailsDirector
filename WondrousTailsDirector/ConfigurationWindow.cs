@@ -3,7 +3,7 @@
 using ImGuiNET;
 using Window = KamiLib.Window.Window;
 
-namespace WondrousTailsSolver;
+namespace WondrousTailsDirector;
 
 public class ConfigurationWindow : Window {
     private readonly Configuration configuration;
