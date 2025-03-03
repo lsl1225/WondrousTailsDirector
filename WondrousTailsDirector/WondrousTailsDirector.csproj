@@ -1,7 +1,7 @@
 <Project Sdk="Dalamud.NET.Sdk/11.0.0">
   <PropertyGroup>
     <PackageId>WondrousTailsDirector</PackageId>
-    <Version>3.2.1.0</Version>
+    <Version>0.0.0.1</Version>
     <Authors>daemitus,MidoriKami</Authors>
     <PackageProjectUrl>https://github.com/MidoriKami/EzWondrousTails</PackageProjectUrl>
   </PropertyGroup>
