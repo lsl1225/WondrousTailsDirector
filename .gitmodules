@@ -3,4 +3,4 @@
 	url = https://github.com/MidoriKami/KamiToolKit.git
 [submodule "KamiLib"]
 	path = KamiLib
-	url = https://github.com/MidoriKami/KamiLib.git
+	url = git@github.com:lsl1225/KamiLib.git
